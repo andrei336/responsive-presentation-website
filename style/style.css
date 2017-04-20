@@ -1,0 +1,110 @@
+
+/*contain*/
+/*--body--*/
+body{background:url(../style/images/bcg1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;}
+/*--top--*/
+/*--header--*/
+/*--banner--*/
+/*--page--*/
+/*--aside--*/
+/*--footer--*/
+/*--misc--*/
+/*--media--*/
+.al-container{padding:0}
+.al-col-01s,.al-col-02s,.al-col-03s,.al-col-04s,.al-col-05s,.al-col-06s,.al-col-07s,.al-col-08s,.al-col-09s,.al-col-10s,.al-col-11s,.al-col-12s, 
+.al-col-01m,.al-col-02m,.al-col-03m,.al-col-04m,.al-col-05m,.al-col-06m,.al-col-07m,.al-col-08m,.al-col-09m,.al-col-10m,.al-col-11m,.al-col-12m, 
+.al-col-01l,.al-col-02l,.al-col-03l,.al-col-04l,.al-col-05l,.al-col-06l,.al-col-07l,.al-col-08l,.al-col-09l,.al-col-10l,.al-col-11l,.al-col-12l{
+	/* border:1px solid yellow; */}
+
+article{margin-bottom:14px;padding:10px 10px 0}
+/* .promo:after{
+	content:"";clear:both;display:table
+} */
+/* top */
+
+
+/* header */
+header{
+	height:100px
+}
+
+/* page */
+aside>div,
+article,
+.title,
+.promo{
+	background-color:rgba(225,225,225,0.9)}
+.title{padding-left:10px;margin-bottom:14px}
+.promo{
+	min-height:75px;
+	margin-bottom:14px;
+	padding:10px 10px 5px;
+	text-align:center;
+	position:relative;
+}
+.stik{position:relative;}
+.stik-content{
+	line-height:25px;
+	font-size:1.8rem;
+    border:6px double #007bc5;
+	margin:0 -14px;
+    padding:20px 10px;
+	background-color:#fff;
+    -webkit-transform:rotate(-6deg) scale(1, 1);
+    -ms-transform:rotate(-6deg) scale(1, 1);
+    -o-transform:rotate(-6deg) scale(1, 1);
+    transform:rotate(-6deg) scale(1, 1);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.3),0 17px 50px 0 rgba(0,0,0,0.2)!important;
+}
+.img{
+	position: absolute;
+    top: -22px;
+    right: 0;
+	z-index: 5;
+	max-width:100%;
+}
+.txt p{margin-bottom:5px}
+/* aside */
+aside>.widget{padding:10px;margin-bottom:14px}
+
+/* footer */
+footer{
+	min-height:150px;
+	background-color:#333;
+	color:#eee;
+	text-align:center;
+}
+
+/* misc */
+
+/* Media Queries */
+
+@media screen and (min-width: 400px) {
+	
+}
+@media screen and (max-width: 400px) {
+	
+}
+@media screen and (min-width: 550px) {
+	
+}
+@media screen and (max-width: 550px) {
+	
+}
+@media screen and (max-width:767px){
+	.al-navbar-top ul{
+		float:none !important;
+		text-align:center;
+		max-height:0;
+		overflow:hidden;
+	}
+}
+@media screen and (max-width:991px){
+	.left,.stik{display:none;}
+}
+@media screen and (min-width: 1200px) {
+	
+}

@@ -1,0 +1,86 @@
+--------------
+table: `pages`
+--------------
+	page_id		-> autoincrement
+	name_page 	-> in bara de adrese
+	title_page 	-> titlu meta
+	description -> metatag
+	keyword		-> metatag
+	robots		-> metatag - advance category
+	body		-> continutul paginii
+	status		-> apare sau nu in site
+	layout		-> cu sidebar sau nu
+	created		-> 
+	last_change ->ultima modificare
+
+------------
+table: `menu`
+------------
+	id			->autoincrement
+	page_id		->id-ul paginii(pt titlu)
+	parent_id	-> id-ul meniului(paginii) parinte
+	order_menu	-> ordinea in bara de meniu
+	show_menu	-> daca apare in meniu
+	last_change	-> ultima modificare
+
+----------------------
+table: `administration`
+----------------------
+	id			-> autoincrement
+	last_name
+	first_name
+	username
+	email
+	password
+	img_profile
+	type
+	numbers_log
+	last_log
+	created
+	last_change
+
+------------
+table: `user`
+------------
+	id			-> autoincrement
+	last_name
+	first_name
+	username
+	email
+	email_code
+	password
+	password_recovery
+	img_profile
+	newsletter
+	active
+	type
+	numbers_log
+	last_log
+	created
+	last_change
+
+----------------
+table: `settings`
+----------------
+	/id			-> autoincrement
+	/site_name	-> numele site-ului
+	/lang		-> limba de prezentare
+	/charset	-> metatag
+	/robots		-> metatag
+	/favicon	-> metatag
+	/header_img
+	/header_alt
+	/logo_img
+	/logo_alt
+	/motto
+	/owner		-> propietar site
+	owner_phone
+	owner_email
+	/copyright
+
+	
+	
+	
+	
+	
+	
