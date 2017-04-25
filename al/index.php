@@ -17,23 +17,6 @@
 	<!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
 	<link rel="stylesheet" href="../style/al.css">
 	<link rel="stylesheet" href="../style/style.css">
-	<script type="text/javascript">
-	function clock() {
-		var Digital = new Date()
-		var hours 	= Digital.getHours()
-		var minutes	= Digital.getMinutes()
-		var seconds	= Digital.getSeconds()
-		if (minutes <= 9)
-			minutes = "0"+minutes
-		if (seconds <= 9)
-			seconds = "0"+seconds
-
-		show_clock = "<time>"+hours+":"+minutes+":"+seconds+"</time>"
-		document.getElementById("clock").innerHTML = show_clock
-		setTimeout("clock()",1000)
-	}
-	window.onload = clock;
-	</script>
 </head>
 <body>
 	<header class="al-container-flexible">
