@@ -65,13 +65,13 @@ ul{margin:0;padding:0;list-style-type:none}
 	margin:0 auto;
 	padding:0 14px;
 	
-	background-color:rgb(192, 237, 253);
+	/* background-color:rgb(192, 237, 253); */
 }
 .al-row{
 	margin-left:-14px;
 	margin-right:-14px;
 
-	background-color:#faa;
+	/* background-color:#faa; */
 }
 .al-container:before,
 .al-container:after,
