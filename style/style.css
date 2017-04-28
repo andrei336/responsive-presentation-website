@@ -38,6 +38,7 @@ article,
 .promo{
 	background-color:rgba(225,225,225,0.9)}
 .title{padding-left:10px;margin-bottom:14px}
+.title h1{margin:0;}
 .promo{
 	min-height:75px;
 	margin-bottom:14px;
