@@ -1,4 +1,15 @@
 --------------
+table: `articles`
+--------------
+	article_id		-> autoincrement
+	article_name 	-> numele articolului
+	article_content -> continutul
+	article_author  -> autorul
+	status			-> 0 ascuns, 1 la vedere
+	publishing_date	-> data publicarii
+	last_change 	->ultima modificare
+
+--------------
 table: `pages`
 --------------
 	page_id		-> autoincrement
