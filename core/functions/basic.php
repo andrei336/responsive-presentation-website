@@ -22,12 +22,12 @@ function menu($db, $parent_id = 0) {
 				pages.page_id,pages.page_name,pages.page_title
 		FROM menu INNER JOIN pages
 		ON menu.page_id = pages.page_id
-		WHERE parent_id =".$parent_id."
+		WHERE parent_id = '$parent_id'
 		AND `show_menu` = 1
 		ORDER BY `order_menu` ASC
 	");
 	
-	$int2 = $db->query("SELECT page_name FROM pages WHERE page_id =".$parent_id);
+	$int2 = $db->query("SELECT page_name FROM pages WHERE page_id = '$parent_id'");
 	$p = $int2->fetch_object();
 	
 	if($int1->num_rows > 0) {
@@ -63,7 +63,7 @@ function get_page($db, $page){
 		
 		echo $body->body;
 		
-		$db->close();
+		//$db->close();
 	}
 }
 ?>
