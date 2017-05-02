@@ -31,6 +31,18 @@ header{
 	height:100px
 }
 
+/* menu */
+.al-navbar ul ul li{
+	background-color:#333;
+}
+.al-navbar li.active,
+.al-navbar a:hover,
+.al-navbar a:focus,
+.al-navbar a:active,
+.al-navbar-top li:hover>a{
+	background-color:#c00 !important;
+}
+
 /* page */
 aside>div,
 article,
