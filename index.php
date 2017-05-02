@@ -17,6 +17,7 @@ require 'core/ini.php';
 	<!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
 	<link rel="stylesheet" href="style/al.css">
 	<link rel="stylesheet" href="style/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
 	<div class="al-container-flexible">
@@ -73,10 +74,10 @@ require 'core/ini.php';
 <!-- end header -->
 <!-- ========================== -->
 <!-- start page -->
-		<article>
-			<span class="al-txt-blue">Continutul pagini:</span> 
+		<!-- <article> -->
+			<!-- <span class="al-txt-blue">Continutul pagini:</span> -->
 			<?php get_page($db, $page); ?>
-		</article>
+		<!-- </article> -->
 <!-- end page -->
 <!-- ========================== -->
 <!-- start footer -->
@@ -101,6 +102,11 @@ require 'core/ini.php';
 	<footer class="al-container-flexible">
 		copyright&copy; - <?php  echo date('Y') ?> - <?php  echo site_settings($db, 'copyright'); ?>
 	</footer><!-- /al-container-flexible -->
+<script>
+		$('.al-navbar-handle').on('click', function(){
+			$('.al-navbar-top ul').toggleClass('al-navbar-show');
+		});
+	</script>
 </body>
 </html>
 <!-- end footer -->

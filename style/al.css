@@ -65,13 +65,13 @@ ul{margin:0;padding:0;list-style-type:none}
 	margin:0 auto;
 	padding:0 14px;
 	
-	/* background-color:rgb(192, 237, 253); */
+	background-color:rgb(192, 237, 253);
 }
 .al-row{
 	margin-left:-14px;
 	margin-right:-14px;
 
-	/* background-color:#faa; */
+	background-color:#faa;
 }
 .al-container:before,
 .al-container:after,
@@ -159,6 +159,9 @@ ul{margin:0;padding:0;list-style-type:none}
 	line-height:48px;
 	color:#eaeaea;
 }
+.al-navbar li{
+	background-color:#5a5a5a;
+}
 .al-navbar li.active,
 .al-navbar a:hover,
 .al-navbar a:focus,
@@ -166,6 +169,10 @@ ul{margin:0;padding:0;list-style-type:none}
 	color:#fff;
 	background-color:#444;
 }
+.al-navbar ul{
+	position:relative;
+}
+
 /* -------------------------------------- */
 .al-navbar-top a{
 	padding:0 30px;
@@ -176,6 +183,22 @@ ul{margin:0;padding:0;list-style-type:none}
 	   -moz-transition:max-height 600ms ease-in-out;
 		 -o-transition:max-height 600ms ease-in-out;
 			transition:max-height 600ms ease-in-out;
+}
+.al-navbar-top ul ul{
+	display:none;
+	position:absolute;
+	width:200px;
+	z-index:100;
+}
+.al-navbar-top ul ul li{
+	width:100%;
+	background-color:#5a5a5a;
+}
+.al-navbar-top li:hover>ul{
+	display:block;
+}
+.al-navbar-top li:hover>a{
+	background-color:#444;
 }
 /* -------------------------------------- */
 .al-navbar-side li:not(:last-child){
@@ -259,7 +282,7 @@ ul{margin:0;padding:0;list-style-type:none}
 }
 @media screen and (min-width:768px){
 	.al-navbar-top ul{
-		display:block !important;
+		/* display:block !important; */
 		/*float:left;*/
 		background-color:#333;
 	}
