@@ -17,6 +17,7 @@ require 'core/ini.php';
 	<!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
 	<link rel="stylesheet" href="style/al.css">
 	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/font-awesome-4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
@@ -31,7 +32,7 @@ require 'core/ini.php';
 			
 			<div class="al-navbar-header">
 				<div class="al-navbar-title">-All-</div>
-				<div class="al-navbar-handle"><span class="fa fa-navicon">Meniu</span></div>
+				<div class="al-navbar-handle"><span class="fa fa-navicon"></span></div>
 			</div>
 			<ul class="al-right al-bgc-red">
 			<?php menu($db, $parent_id = 0); ?>
