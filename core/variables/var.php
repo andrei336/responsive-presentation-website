@@ -23,6 +23,6 @@ else{
 	}
 }
 //set var $current_page;
-//-------------- ??????????? wrong
+//--------------
 $current_page = explode('/', $_SERVER['SCRIPT_NAME']);
 $current_page = end($current_page);

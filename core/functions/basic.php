@@ -15,11 +15,11 @@ function page_settings($db, $page, $page_item){
 	return $item_set->$page_item;
 }
 //--------------------
-//QK! Work
+//OK! Work
 function menu($db, $parent_id = 0) {
 	$int1 = $db->query("
-		SELECT 	menu.id, menu.page_id,menu.parent_id,menu.order_menu,menu.show_menu,
-				pages.page_id,pages.page_name,pages.page_title
+		SELECT 	menu.id, menu.page_id, menu.parent_id, menu.order_menu, menu.show_menu,
+				pages.page_id, pages.page_name, pages.page_title
 		FROM menu INNER JOIN pages
 		ON menu.page_id = pages.page_id
 		WHERE parent_id = '$parent_id'

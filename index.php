@@ -29,7 +29,6 @@ require 'core/ini.php';
 	</header><!-- /header -->
 	<nav class="al-container-flexible">
 		<div class="al-navbar al-navbar-top al-navbar-large al-navbar-extend al-bgc-dark-grey">
-			
 			<div class="al-navbar-header">
 				<div class="al-navbar-title">-All-</div>
 				<div class="al-navbar-handle"><span class="fa fa-navicon"></span></div>
